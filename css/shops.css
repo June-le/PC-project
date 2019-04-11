@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.shops-main{
+    width: 100%;
+    min-width: 1210px;
+    margin: 0 auto;
+    background: #fff;
+}
+/* banner图开始 */
+.shops-banner{
+    position: relative;
+    overflow: hidden;
+    min-width:1210px;
+    width: 100%;
+    margin: 0 auto;
+}
+.shops-banner .banner{
+    width: 1900px;
+    height: 435px;
+    position: relative;
+}
+.shops-banner .banner .banner1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.shops-banner .controls{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -50px;
+    width: 120px;
+    height: 2px;
+}
+.shops-banner .controls .cs-bt{
+    width: 25px;
+    height: 2px;
+    background: #fff;
+    float: left;
+    margin: 0 5px;
+    cursor: pointer;
+    background: #b4b3b3;
+}
+/* banner图结束 */
+
+/* 中部区域开始 */
+.brand{
+    width:100% ;
+    background:#efefef;
+    padding: 75px 0;
+}
+.brand .brand-content{
+    width: 1148px;
+    margin:  0 auto;
+}
+.brand .brand-content .share-carousel{
+    position: relative;
+}
+.brand .brand-content .share-carousel .brand-left,.brand-right{
+    width: 30px;
+    height: 65px;
+}
+.brand .brand-content .share-carousel .brand-left{
+    background-image: url(../images/shops-img/left1.png);
+    background-repeat: no-repeat;
+    background-position: 3px 13px;
+    float: left;
+    margin-right: 29px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+.brand .brand-content .share-carousel .brand-right{
+    background-image: url(../images/shops-img/right1.png);
+    background-repeat: no-repeat;
+    background-position: 3px 13px;
+    float: right;
+    margin-top: 70px;
+    cursor: pointer;
+}
+.brand .brand-content .share-carousel .brand-zhong{
+    width: 1040px;
+    height: 216px;
+    overflow: hidden;
+    margin:  0 auto;
+    float: left;
+}
+.brand .brand-content .share-carousel .brand-zhong .brand-logo{
+    width: 3126px;
+}
+.brand .brand-content .share-carousel .brand-zhong .fl{
+    width: 190px;
+    height: 95px;
+    margin: 6px 9px;
+}
+.brand .brand-content .share-carousel .brand-zhong .fl .logo-a{
+    display: block;
+    background: #fff;
+    position: relative;
+    text-decoration: none;
+}
+.brand .brand-content .share-carousel .brand-zhong .fl .logo-a .lazy-logo{
+    height: 95px;
+    width: 190px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.brand .brand-content .share-carousel .brand-zhong .fl .logo-a .lazy-logo img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -24px;
+    margin-left: -57px;
+}
+.brand .brand-content .share-carousel .brand-zhong .fl .logo-a .logo-yc{
+    background: #ccaa7a;
+    width: 190px;
+    height: 95px;
+    line-height: 95px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+/* 中部区域结束 */
+
+/* 人气商品开始 */
+.commodity{
+    padding: 20px 0 30px 0;
+    background: #fff;
+}
+.tietle{
+    padding: 18px 0 26px 0;
+}
+.tietle .p1{
+    font-size: 24px;
+    color: #333;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 700;
+}
+.tietle .p2{
+    font-size: 16px;
+    color: #999;
+    line-height: 16px;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    text-align: center;
+}
+.tietle .p3{
+    width: 30px;
+    height: 2px;
+    background-color: #c6c0c0;
+    margin: 0 auto;
+}
+.commodity .content{
+    width: 1050px;
+    height: 278px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.commodity .content a{
+    padding: 10px 6px 14px 6px;
+    margin-right: 20px;
+    display: block;
+    width: 176px;
+    float: left;
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.commodity .content a .cont-txt{
+    font-size: 12px;
+    color: #666;
+    line-height: 13px;
+    margin-top: 20px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.commodity .content a .cont-money{
+    font-size: 12px;
+    color: #333;
+    line-height: 12px;
+    margin-top: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+.commodity .content a .cont-img{
+    width: 100%;
+}
+.commodity .content a .cont-img img{
+    height: 178px;
+    display: block;
+    margin: 0 auto;
+    border: 0;
+}
+.commodity .more{
+    cursor: pointer;
+}
+.commodity .more .p4{
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    margin-bottom: 6px;
+}
+.commodity .more .p5{
+    width: 40px;
+    height: 22px;
+    margin: 0 auto;
+}
+/* 人气商品结束 */
+
+/* 人气店铺开始 */
+.shop{
+    padding: 40px 0 60px 0;
+    background: #efefef;
+}
+.shop .shop-content{
+    width: 1209px;
+    margin: 0 auto;
+}
+.shop .shop-content li{
+    width: 394px;
+    height: 330px;
+    float: left;
+    background: #fff;
+    margin-right: 9px;
+    margin-bottom: 10px;
+}
+.shop .shop-content .shop-logo{
+    width: 50px;
+    height: 25px;
+    margin: 0 auto;
+    padding: 23px 0;
+}
+.shop .shop-content .shop-logo img{
+    width: 50px;
+    height: auto;
+}
+.shop .shop-content .shop-img{
+    width: 366px;
+    height: 142px;
+    margin: 0 auto;
+    display: block;
+}
+.shop .shop-content .shop-title{
+    font-size: 14px;
+    color: #333;
+    line-height: 16px;
+    display: block;
+    padding: 20px 0 10px 14px;
+}
+.shop .shop-content .shop-yc{
+    padding: 10px 14px 0 14px;
+    display: none;
+}
+.shop .shop-content .shop-yc .shop-yc-lf{
+    cursor: pointer;
+    float: left;
+}
+.shop .shop-content .shop-yc .shop-yc-lf a{
+    border: 1px solid #ddd;
+    border-radius: 100px;
+    width: 54px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #999;
+    margin-right: 10px;
+    float: left;
+}
+.shop .shop-content .shop-yc .shop-yc-rt{
+    float: right;
+}
+.shop .shop-content .shop-yc .shop-yc-rt a{
+    font-size: 12px;
+    color: #4678b4;
+    line-height: 20px;
+    padding-right: 20px;
+}
+.shop .shop-content .clearfix li .shop-text{
+    font-size: 12px;
+    color: #999;
+    height: 40px;
+    line-height: 20px;
+    padding: 0 14px; 
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient:vertical;
+    word-break:break-all;
+    cursor: pointer;
+}
+.shop .shop-content a{
+    text-decoration: none;
+}
+/* 人气店铺结束 */

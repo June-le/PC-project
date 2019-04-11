@@ -1,0 +1,202 @@
+*{
+    font-size:12px;
+}
+.watchExpert-main{
+    width:100%;
+    min-width: 990px;
+}
+.watchExpert-main img{
+    display: block;
+    margin:0 auto;
+}
+#secondhandShop-footer{
+    width:100%;
+    background:#333;
+}
+.secondhandShop-footer-ribbon{
+    width:100%;
+    height: 70px;
+    border-top:1px solid #eee;
+    background:#fff;
+}
+.secondhandShop-footer-ribbon .ribbon-list{
+    width: 1200px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.ribbon-list li{
+    width: 240px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    float: left;
+    font-size:14px;
+    color:#666;
+}
+.list-li-icon_01{
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    vertical-align: middle;
+    margin-right:8px;
+    background-image: url(../images/img/sprites_01.png);
+    background-position: -409px -357px;
+}
+.list-li-icon_02{
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    vertical-align: middle;
+    margin-right:8px;
+    background-image: url(../images/img/sprites_01.png);
+    background-position: 0 -414px;
+}
+.list-li-icon_03{
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    vertical-align: middle;
+    margin-right:8px;
+    background-image: url(../images/img/sprites_01.png);
+    background-position: -361px -357px;
+}
+.list-li-icon_04{
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    vertical-align: middle;
+    margin-right:8px;
+    background-image: url(../images/img/sprites_01.png);
+    background-position: -313px -357px;
+}
+.list-li-icon_05{
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    vertical-align: middle;
+    margin-right:8px;
+    background-image: url(../images/img/sprites_01.png);
+    background-position: -265px -357px;
+}
+.secondhandShop-footer-service{
+    width: 1200px;
+    padding: 44px 0 80px;
+    margin:0 auto;
+}
+.service-left{
+    float:left;
+}
+.service-left .p1{
+    font-size:14px;
+    font-weight: 700;
+    line-height: 19px;
+    margin-bottom: 12px;
+    color:#ccaa7a;
+}
+.service-left .p2{
+    font-size:24px;
+    line-height: 31px;
+    color:#ccaa7a;
+}
+.service-left .p3{
+    color: #999;
+    line-height: 16px;
+    margin-bottom:16px;
+}
+.service-left .p4 a{
+    display:block;
+    width: 132px;
+    height: 36px;
+    line-height:36px;
+    color:#999;
+    border:1px solid #999;
+    border-radius: 100px;
+    font-weight: 700px;
+    text-align: center;
+}
+.service-left .p4 a:hover{
+    color:#fff;
+    background:#ccaa7a;
+}
+.service-center{
+    width: 520px;
+    margin-left:122px;
+    float: left;
+}
+.service-center ul{
+    width: 80px;
+    float: left;
+    margin-right:24px;
+}
+.service-center ul li a{
+    display: block;
+    line-height: 28px;
+    color:#999;
+}
+.service-center ul li a:hover{
+    color:#fff;
+}
+.center-list-title{
+    font-size:14px;
+    font-weight: 700;
+    color:#ccc;
+    margin-bottom: 13px;
+}
+.service-right{
+    width: 113px;
+    height: 130px;
+    margin-left:187px;
+    margin-top:-5px;
+    float:left;
+}
+.secondhandShop-footer-copyright{
+    width: 100%;
+    text-align: center;
+}
+.copyright-wrap{
+    width: 1200px;
+    margin:0 auto;
+}
+.copyright-wrap .wrap-link a{
+    color:#999;
+    margin:0 10px;
+    line-height: 20px;
+}
+.wrap-link a:hover{
+    color:#fff;
+}
+.wrap-link .more-link{
+    color:#999;
+    display: inline-block;
+    margin-top:3px;
+    font-size:14px;
+    cursor:pointer;
+}
+.wrap-link .wp-more-link{
+    display:none;
+}
+.wrap-link .wp-more-link a{
+    color:#999;
+    margin:0 10px;
+    line-height: 20px;
+}
+.copyright-wrap .wrap-corp{
+    margin-top:43px;
+    margin-bottom:40px;
+    color:#999;
+    line-height: 18px;
+}
+.wrap-corp p{
+    margin-bottom:10px;
+}
+.copyright-filing{
+    width: 100%;
+    padding: 24px 0 41px;
+    background:#fff;
+}
+.copyright-filing div a{
+    display: inline-block;
+    margin: 0 10px;
+    width: 98px;
+    height: 38px;
+}

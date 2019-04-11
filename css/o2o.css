@@ -1,0 +1,234 @@
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+.o2oPage{
+    border-bottom: 3px solid #b32424;
+}
+/* 体验中心图 */
+.o2oBanner{
+    width: 1903px;
+    height: 430px;
+    background: #0b4165;
+}
+.o2oBanner .o2oBanner_01{
+    background-image: url(../images/o2o-img/tyd_ban_01.jpg) ;
+    width: 1600px;
+    height: 215px;
+    margin: 0 auto;
+}
+.o2oBanner .o2oBanner_02{
+    background-image: url(../images/o2o-img/tyd_ban_02.jpg);
+    width: 1600px;
+    height: 215px;
+    margin: 0 auto;
+}
+/* 体验中心图 End */
+/* 购表服务 */
+.serviceAll{
+    background: rgb(231, 231, 231);
+    height: 900px;
+}
+.serviceAll .serviceTitle{
+    width: 1160px;
+    height: 70px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.serviceTitle p{
+    font-size: 24px;
+    text-align: center;
+    color: #2e2e2f;
+    line-height: 35px;
+}
+.serviceAll .serviceShow{
+    width: 1200px;
+    margin: 0 auto;
+}
+.serviceShow li{
+    width: 340px;
+    height: 305px;
+    background: #fff;
+    margin: 10px;
+    padding: 20px;
+    float: left;
+}
+.serviceShow .serviceIntroduce{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+.serviceData span{
+    width: 101px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 15px;
+    float: left;
+    font-size: 14px;
+    border: 1px solid #eee;
+    color: #444;
+}
+.serviceData .serviceData_01{
+    margin-left: 0;
+}
+.serviceData1 span{
+    width: 160px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 15px;
+    float: left;
+    font-size: 14px;
+    border: 1px solid #eee;
+    color: #444;
+}
+.serviceData1 .serviceData1_01{
+    margin-left: 0;
+}
+/* 购表服务End */
+/* 意见 */
+.opinion{
+    width: 1600px;
+    height: 394px;
+    background-image: url(../images/o2o-img/yi_bg.jpg);
+    margin: 0 auto 100px;
+    position: relative;
+}
+.opinion .consult{
+    width: 524px;
+    height: 164px;
+    background: rgba(0, 0, 0,.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -82px;
+    margin-left: -262px;
+}
+.consult p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top: 38px;
+}
+.consult div{
+    width: 265px;
+    height: 40px;
+    
+    margin: 25px auto 0;
+}
+.consult a{
+    float: left;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #f7ba0f;
+    text-shadow: 1px 1px 3px #333;
+    border-radius: 10px;
+    color: #fff;
+    margin-right: 30px;
+}
+/* 意见End */
+/* 线下体验中心 */
+.offline{
+    width: 1200px;
+    margin: 0 auto;
+}
+.offline .headOffline{
+    width: 1200px;
+    height: 50px;
+    border-bottom: 3px solid #F5F5F5;
+}
+.offline .headOffline p{
+    float: left;
+    font-size: 24px;
+    line-height: 50px;
+    border-bottom: 3px solid #215677;
+    color: #215677;
+}
+.offline .headOffline a{
+    float: right;
+    line-height: 50px;
+}
+.offline .offlineLocation{
+    margin: 50px 0;
+}
+.offline .offlineLocation .mainPhoto{
+    width: 380px;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin-right: 35px;
+}
+.offlineLocation .mainPhoto img{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.offlineLocation .storeAddress{
+    float: left;
+    width: 785px;
+}
+.offlineLocation .storeAddress a{
+    font-size: 18px;
+    color: #286084;
+    line-height: 40px;
+    font-weight: bold;
+}
+.offlineLocation .storeAddress p{
+    font-size: 14px;
+    color: #444;
+    line-height: 28px;
+}
+.offlineLocation .storeAddress .brand a{
+    margin-right: 17px;
+    font-size: 14px;
+    color: #18277a;
+    line-height: 28px;
+    float: left;
+    font-weight: 100;
+}
+.offlineLocation .storeAddress .brand p{
+    float: left;
+}
+.offlineLocation .storeAddress .shopFigure a{
+    float: left;
+    width: 162px;
+    height: 118px;
+    overflow: hidden;
+    margin: 0 5px;
+    position: relative;
+}
+.offlineLocation .storeAddress .shopFigure img{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.offline .moreCity{
+    text-align: center;
+    color: #666;
+    margin-bottom: 50px;
+}
+.offline .moreCity:before{
+    content: "";
+    display: block;
+    width: 100%;
+    border: 1px solid #f5f5f5;
+    
+}
+.offline .moreCity span{
+    display: block;
+    margin-top: -10px;
+    font-size: 16px;
+    padding: 0 15px;
+}
+
+/* 线下体验中心End */

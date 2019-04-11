@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+em i{
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+.panel{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    z-index: 10;
+}
+.panel .pcenter{
+    position: absolute;
+    width: 44px;
+    height: 100%;
+    right: 0;
+}
+/*小姐姐开始*/
+.panel .pcenter .pc-top{
+    position: relative;
+    top: 220px;
+    right: 0;
+    width: 100%;
+}
+.panel .pcenter .pc-top .pc-top-img{
+    position: relative;
+    right: 13px;
+    display: block;
+    width: 57px;
+    height: 66px;
+    background-image: url(../images/shops-img/xb.png);
+    background-position: -304px 0;
+    background-size: 589px;
+    text-decoration: none;
+}
+.panel .pcenter .pc-top .pc-yc{
+    width: 300px;
+    height: 180px;
+    position: absolute;
+    top: 3px;
+    right: 75px;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,.15);
+    border-radius: 5px;
+    text-align: center;
+    background: #fff;
+    opacity: 1;
+    display: none;
+}
+.panel .pcenter .pc-top .pc-yc .yc-close{
+    cursor: pointer;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    display: block;
+    width: 17px;
+    height: 16px;
+    background-image: url(../images/shops-img/xb.png);
+    background-position: -97px -504px;
+    transform-origin: length top;
+    transition: all .8s;
+    z-index: 2;
+}
+/*.pc-yc:hover .yc-close{
+    transform: rotate(360deg);
+}*/
+.panel .pcenter .pc-top .pc-yc .yc-jt{
+    display: block;
+    position: absolute;
+    right: -15px;
+    top: 16px;
+    background-image: url(../images/shops-img/xb1.png);
+    background-position: -230px -218px;
+    background-size: 589px;
+    width: 18px;
+    height: 16px;
+}
+.panel .pcenter .pc-top .pc-yc .yc-text{
+    position: relative;
+    height: 133px;
+}
+.panel .pcenter .pc-top .pc-yc .yc-text .yc-text1{
+    width: 89%;
+    position: absolute;
+    top: 37%;
+    left: 7%;
+}
+.panel .pcenter .pc-top .pc-yc .yc-text .yc-text1 b{
+    color:#ccaa7a;
+    font-size: 20px;
+}
+.panel .pcenter .pc-top .pc-yc .yc-text .yc-text1 span{
+    display: block;
+    color: #666;
+    margin-top: 7px;
+    font-size: 12px;
+}
+.panel .pcenter .pc-top .pc-yc .yc-zx{
+    border-top: 1px solid #ebebeb;
+    width: 100%;
+    height: 44px;
+    overflow: hidden;
+}
+.panel .pcenter .pc-top .pc-yc .yc-zx li{
+    display: block;
+    width: 50%;
+}
+.panel .pcenter .pc-top .pc-yc .yc-zx .fl .fl-cor{
+    text-decoration: none;
+    /* color: #cc3d3d; */
+    line-height: 43px;
+    font-weight: 700;
+}
+.panel .pcenter .pc-top .pc-yc .yc-zx .fl .fl-cor1{
+    color: #cc3d3d;
+}
+.panel .pcenter .pc-top .pc-yc .yc-zx .fl .fl-cor2{
+    color: #666;
+}
+/*小姐姐结束*/
+
+/*小图标开始*/
+.panel .pcenter .pc-botm{
+    position:absolute;
+    bottom: 55px;
+    right: 0;
+    width: 100%;
+    box-shadow:0 0 8px 1px rgba(0,0,0,.1);
+}
+.panel .pcenter .pc-botm a{
+    position: relative;
+    display: block;
+    width: 44px;
+    height: 44px;
+    background: #fff;
+    text-decoration: none;
+    /* background: #333; */
+}
+.panel .pcenter .pc-botm .botm1 i{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.panel .pcenter .pc-botm .botm1 .botm-circle{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 5px;
+    top: 3px;
+    text-align: center;
+    line-height: 15px;
+    color: #fff;
+    background: #b32424;
+    border-radius: 50%;
+    display: none;
+}
+.panel .pcenter .pc-botm .botm1 .botm-yc{
+    position: absolute;
+    right: 44px;
+    bottom: 0;
+    z-index: 2;
+    width: 76px;
+    height: 44px;
+    line-height: 44px;
+    color: #333;
+    font-size: 12px;
+    background: #f1f1f1;
+    text-align: center;
+    padding-right: 6px;
+    display: none;
+}
+.panel .pcenter .pc-botm .botm1 .two-yard{
+    position: absolute;
+    right: 124px;
+    bottom: 123px;
+    display: none;
+}
+.panel .pcenter .pc-botm .botm1 .botm-img1{
+    display: block;
+    background: url(../images/shops-img/xb.png);
+    background-position: -507px -382px;
+    background-size: 589px;
+    width: 24px;
+    height: 24px;
+}
+.panel .pcenter .pc-botm .botm1 .botm-img3{
+    background: url(../images/shops-img/xb.png);
+    background-position: -507px -246px;
+    background-size: 589px;
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+.panel .pcenter .pc-botm .botm1 .botm-img5{
+    background: url(../images/shops-img/xb.png);
+    background-position: -469px -360px;
+    background-size: 589px;
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+.panel .pcenter .pc-botm .botm1 .botm-img7{
+    background: url(../images/shops-img/xb.png);
+    background-position: -373px -462px;
+    background-size: 589px;
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+.panel .pcenter .pc-botm .botm1 .botm-img8{
+    background: url(../images/shops-img/xb.png);
+    background-position: -507px -178px;
+    background-size: 589px;
+    width: 24px;
+    height: 24px;
+}
+.panel .pcenter .pc-botm .botm1 .botm-img2,.botm-img4,.botm-img6{
+    display: none;
+}
+/*小图标结束*/
+
+
+/* 右侧点击小图标隐藏的栏目开始 */
+.panel .panel-yc,.panel .panel-yc{
+    position: relative;
+}
+.panel .panel-yc .panyc{
+    width: 260px;
+    height: 100%;
+    position: absolute;
+    right: -262px;
+    z-index: 99;
+}
+.panel .panel-yc{
+    width: 260px;
+    height: 100%;
+    position: absolute;
+    right: -262px;
+    z-index: 99;
+    border-left:2px solid #333;
+    background: #f1f1f1;
+}
+.panel .panel-yc .panyc .panyc-top{
+    height: 48px;
+    line-height: 48px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 0 10px;
+}
+.panel .panel-yc .panyc .panyc-top b{
+    font-size: 14px;
+    color: #333;
+}
+.panel .panel-yc .panyc .panyc-top .panyc-fork{
+    cursor: pointer;
+    display: inline-block;
+    background: url(../images/shops-img/xb.png);
+    background-position: -97px -504px;
+    width: 17px;
+    height: 16px;
+    margin-top: 15px;
+}
+.panel .panel-yc .panyc .panyc-tips{
+    height: 32px;
+    line-height: 32px;
+    background: #fff9ce;
+    color: #666;
+    padding: 0 12px;
+}
+.panel .panel-yc .panyc .panyc-tips a{
+    text-decoration: none;
+    color: #477db3;
+}
+.panel .panel-yc .panyc .panyc-empty{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    color: #666;
+    text-align: center;
+}
+.panel .panel-yc .panyc .panyc-empty .empty-img{
+    margin: 0 auto 23px;
+    display: block;
+    background-image: url(../images/shops-img/xb.png);
+    background-position: 0 -296px;
+    width: 55px;
+    height: 51px;
+    margin-top: -15px;
+}
+.panel .panel-yc .panyc .panyc-list{
+    width: 278px;
+    height: 85%;
+    overflow-y: scroll;
+}
+.panel .panel-yc .panyc .panyc-bottom{
+    position: absolute;
+    bottom: 0;
+    width: 236px;
+    height: 48px;
+    padding: 0 12px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+.panel .panel-yc .panyc .panyc-bottom a{
+    display: inline-block;
+    width: 120px;
+    height: 32px;
+    line-height: 32px;
+    color: #fff;
+    background: #cc5252;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 8px;
+    text-decoration: none;
+}
+.panel .panel-yc .panyc .panyc-bottom em{
+    color: #666;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+.panel .panel-yc .panyc .panyc-bottom b{
+    color: #cc5252;
+    margin-left: -3px;
+}
+.panel .panel-yc .panyc2 .panyc-tab{
+    position: relative;
+    padding: 0 12px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+.panel .panel-yc .panyc2 .panyc-tab ul{
+    border-bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    display: flex;
+}
+.panel .panel-yc .panyc2 .panyc-tab ul li{
+    height: 48px;
+    line-height: 48px;
+    margin-right: 20px;
+    display: block;
+    text-align: center;
+}
+.panel .panel-yc .panyc2 .panyc-tab ul .fl-on{
+    border-bottom: 3px solid #333
+}
+.panel .panel-yc .panyc2 .panyc-tab ul li a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: #666;
+}
+.panel .panel-yc .panyc2 .panyc-tab ul li.on a{
+    color: #000;
+    line-height: 43px;
+    display: inline-block;
+}
+.panel .panel-yc .panyc2 .panyc-tab .panyc-fork{
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    top: 16px;
+    right: 12px;
+    background: url(../images/shops-img/xb.png);
+    background-position: -97px -504px;
+    width: 17px;
+    height: 16px;
+}
+.panel .panel-yc .panyc2 .panyc-nologin{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: #666;
+}
+.panel .panel-yc .panyc2 .panyc-content .content-shop .shop-txt{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: #666;
+}
+.panel .panel-yc .panyc2 .panyc-content .content-shop{
+    display: none;
+}
+.panel .panel-yc .panyc2 .panyc-content .on{
+    display: block;
+}
+.panel .panel-yc .shop-bottom{
+    position: absolute;
+    bottom: 0;
+    width: 236px;
+    height: 48px;
+    padding: 0 12px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+.panel .panel-yc .shop-bottom a{
+    text-decoration: none;
+    display: block;
+    line-height: 48px;
+    text-align: center;
+    color: #666;
+}
+/* 右侧点击小图标隐藏的栏目结束 */

@@ -1,0 +1,94 @@
+.login-main{
+    width: 100%;
+    min-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+}
+.login-main .main-header{
+    width: 1000px;
+    margin: 25px auto 0;
+}
+.login-main .main-content{
+    position: relative;
+    width: 100%;
+    height: 580px;
+    background: #a5a5a5;
+   
+}
+.login-main .main-content .a-box{
+    background-image: url(../images/proLists-img/ad8e341966ff46cfa4855cdaf0020341.jpg);
+    /* background-size: cover; */
+    background-color: #7e0c0d;
+    position: absolute;
+    width: 100%;
+    height: 580px;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.login-main .main-content .a-box .login-box{
+    width: 380px;
+    height: 460px;
+    background-color: #fff;
+    position: absolute;
+    top: 60px;
+    right: 50%;
+    margin-right: -500px;
+}
+.main-content .a-box .login-box h5{
+    overflow: hidden;
+    width: 269px;
+    margin: 0 auto;
+    padding: 40px 0 20px;
+    line-height: 26px;
+    font-size: 20px;
+    text-align: center;
+    color: #cc5252;
+}
+.login-box .log-inp{
+    width: 300px;
+    margin: 0 auto;
+}
+.login-box .log-inp p{
+    overflow: hidden;
+}
+.login-box .log-inp p input{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    height: 44px;
+    margin-top: 12px;
+    line-height: 44px;
+    border: 1px solid #ddd;
+    padding-left: 10px;
+    outline: 0;
+}
+.login-box .log-inp p i{
+    font-size: 14px;
+    color: #cc5252;
+    line-height: 19px;
+    margin-top: 8px;
+    display: block;
+    padding-left: 10px;
+    font-style: normal;
+}
+.login-box .log-inp .login{
+    background: #cc5252;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 12px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+    /* box-sizing: border-box; */
+    height: 44px;
+    margin-top: 12px;
+    line-height: 44px;
+}
+.log-inp .regist{
+    color: #999;
+
+}

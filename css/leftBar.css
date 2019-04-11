@@ -1,0 +1,386 @@
+@charset "utf-8"; .W_bread {
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    background: url(//static.wbiao.co/p/pc/images/goods/W_detail_Bread.png) repeat-x;
+    overflow: hidden;
+    color: #666;
+    margin-bottom: 18px
+}
+
+/* html,body{
+    height: 100%;
+} */
+.W_bread .bread_inner {
+    width: 1200px;
+    margin: 0 auto
+}
+
+.W_bread .bread_left a:before {
+    content: ">";
+    font-size: 13px;
+    color: #383737;
+    display: inline-block;
+    font-family: "宋体";
+    margin-right: 8px;
+    margin-left: 5px
+}
+
+.W_bread .bread_left a:first-child:before {
+    content: "";
+    font-size: 0;
+    margin: 0
+}
+
+.leftBar-wrapper{
+    float: left;
+    width: 210px;
+    height: 1210px;
+    position: relative;
+}
+.W-pt-member-leftBar {
+    position: static;
+    width: 210px;
+    background-color: rgb(29, 32, 43);
+    padding-top: 30px;
+    float: left;
+    height: 1210px;
+}
+.W-pt-member-leftBar.toFixed{
+    position: fixed;
+    top: 0;
+    height: 100%;
+}
+.W-pt-member-leftBar.toAbs{
+    position: absolute;
+    /* top: 670px; */
+    left: 0;
+    /* height: 100%; */
+}
+.W-pt-member-leftBar .member {
+    text-align: center;
+    cursor: pointer
+}
+
+.W-pt-member-leftBar .member .avatar {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 12px;
+    border-radius: 50px;
+    overflow: hidden;
+    border: 1px solid #ddd
+}
+
+.W-pt-member-leftBar .member .name {
+    color: white;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 5px
+}
+
+.W-pt-member-leftBar .member .level span {
+    display: inline-block;
+    color: #b3a26b;
+    border: 1px solid #b3a26b;
+    height: 16px;
+    line-height: 16px;
+    padding: 0 6px;
+    border-radius: 9px
+}
+
+.W-pt-member-leftBar .member .level span.grade-1 {
+    color: #b3a26b;
+    border: 1px solid #b3a26b
+}
+
+.W-pt-member-leftBar .member .level span.grade-2 {
+    color: #9e9685;
+    border: 1px solid #9e9685
+}
+
+.W-pt-member-leftBar .member .level span.grade-3 {
+    color: #98783a;
+    border: 1px solid #98783a
+}
+
+.W-pt-member-leftBar .member .level span.grade-4 {
+    color: #c7b269;
+    border: 1px solid #c7b269
+}
+
+.W-pt-member-leftBar .member .level span.grade-5 {
+    color: #aa9b68;
+    border: 1px solid #aa9b68
+}
+
+.W-pt-member-leftBar .member .level span.grade-6 {
+    color: #98783a;
+    border: 1px solid #98783a
+}
+
+/* 以下是修改后的代码 */
+.W-pt-member-leftBar .lines-wrap .block{
+    position: relative;
+    width: 100%;
+    line-height: 45px;
+    vertical-align: middle;
+}
+#nav{
+    position: relative;
+}
+.W-pt-member-leftBar .lines-wrap{
+    position: relative;
+    background-color: rgb(29, 32, 43) !important;
+    color: rgba(255,255,255,.7);
+}
+.W-pt-member-leftBar .lines-wrap a{
+    color: rgba(255,255,255,.7);
+}
+.W-pt-member-leftBar .lines-wrap .block>a{
+    position: relative;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.W-pt-member-leftBar .lines-wrap .block a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 45px;
+    padding-right: 30px;
+    font-size: 14px;
+}
+.W-pt-member-leftBar .lines-wrap .block .more{
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid dashed dashed;
+    border-color: #fff transparent transparent;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -3px;
+    border-width: 6px;
+    border-top-color: rgba(255,255,255,.7);
+}
+
+#nav .block.toShow .more {
+    margin-top: -9px;
+    border-style: dashed dashed solid;
+    border-color: transparent transparent #fff;
+}
+
+a cite{
+    font-style: normal;
+    font-size: 14px;
+}
+.W-pt-member-leftBar .lines-wrap .block dl{
+    display: none;
+    background-color: rgba(0,0,0,.3);
+}
+
+.W-pt-member-leftBar .lines-wrap .block dd:hover a{
+    color: #fff;
+}
+.W-pt-member-leftBar .lines-wrap .block dd.hightLight a{
+    color: #fff;
+}
+
+.W-pt-member-leftBar .lines-wrap .block dl a{
+    background-color: #16181d ;
+}
+.nav-bar{
+    z-index: 1000;
+    position: absolute;
+    left: 0;
+    width: 5px;
+    height: 0;
+    background-color: #009688; 
+    top: 0;
+    /* transition: all 5s; */
+}
+#nav dl dd.hightLight a{
+    color: #fff;
+    background-color: #aa9b68;
+}
+.wb-icon{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    margin-top: -19px;
+}
+.iconfont{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    margin-top: -19px;
+}
+/* 二级大菜单的隐藏 */
+.W-pt-member-leftBar .lines-wrap .block.toShow dl{
+    display: block;
+}
+
+
+/* 以下是lines-wrap的原代码 */
+/* 
+.W-pt-member-leftBar .lines-wrap {
+    padding-top: 30px;
+    padding-left: 30px;
+    position: relative
+}
+
+.W-pt-member-leftBar .lines-wrap span.complete {
+    position: absolute;
+    top: 2px;
+    background: #cc5252;
+    border-radius: 2px;
+    width: 112px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    right: 10px
+}
+
+.W-pt-member-leftBar .lines-wrap span.complete em {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 10px;
+    background: url(../images/collection/bg_prompt.png);
+    left: -7px;
+    top: 50%;
+    margin-top: -5px;
+    background-size: 100% 100%
+}
+
+.W-pt-member-leftBar .lines-wrap .block {
+    margin-bottom: 20px
+}
+
+.W-pt-member-leftBar .lines-wrap .block .title {
+    height: 44px;
+    line-height: 44px;
+    font-size: 16px;
+    color: #666;
+    background-color: #383737
+}
+
+.W-pt-member-leftBar .lines-wrap .block .lines {
+    position: relative
+}
+
+.W-pt-member-leftBar .lines-wrap .lines.on a {
+    color: #333;
+    font-weight: 700
+}
+
+.W-pt-member-leftBar .lines-wrap .lines a {
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px
+} */
+
+.W_grade_rule {
+    height: 569px!important
+}
+
+.W_grade_rule .layui-layer-content {
+    height: 505px!important;
+    overflow: hidden
+}
+
+.W_grade_rule .layui-layer-content .W_grade_cont {
+    margin: 21px 0 0 65px
+}
+
+.W_grade_rule .layui-layer-content h5 {
+    font-size: 18px;
+    color: #333;
+    line-height: 20px
+}
+
+.W_grade_rule .layui-layer-content p {
+    margin-top: 3px;
+    font-size: 14px;
+    color: #666;
+    line-height: 24px;
+    width: 571px
+}
+
+.W_grade_rule .layui-layer-content .W_rule {
+    margin-top: 5px;
+    width: 571px
+}
+
+.W_grade_rule .layui-layer-content .W_rule ul {
+    border-right: 1px solid #ededed;
+    overflow: hidden
+}
+
+.W_grade_rule .layui-layer-content .W_rule li {
+    overflow: hidden;
+    float: left
+}
+
+.W_grade_rule .layui-layer-content .W_rule li.li01 {
+    width: 90px
+}
+
+.W_grade_rule .layui-layer-content .W_rule li.li02 {
+    width: 140px
+}
+
+.W_grade_rule .layui-layer-content .W_rule li.li03 {
+    width: 100px
+}
+
+.W_grade_rule .layui-layer-content .W_rule li.li04 {
+    width: 130px
+}
+
+.W_grade_rule .layui-layer-content .W_rule li.li05 {
+    width: 110px
+}
+
+.W_grade_rule .layui-layer-content .W_rule li.li06 {
+    height: 56px;
+    line-height: 56px;
+    box-shadow: inset 0 -1px 0 0 #ededed,inset 1px 0 0 0 #ededed;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid #ededed
+}
+
+.W_grade_rule .layui-layer-content .W_rule li span {
+    display: block;
+    box-shadow: inset 0 0 0 0 #ededed,inset 1px 1px 0 0 #ededed;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: #333
+}
+
+.W_grade_rule .layui-layer-content .W_rule li span.sp01 {
+    background: #ccaa7a;
+    color: #fff
+}
+
+.W_grade_rule .layui-layer-setwin {
+    right: 19px;
+    top: 16px
+}
+
+.W_grade_rule .layui-layer-setwin a {
+    width: 30px;
+    height: 30px
+}

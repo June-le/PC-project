@@ -1,0 +1,141 @@
+.W-main{
+    width: 990px;
+    min-width: 990px;
+    margin: 0 auto;
+}
+.W-main .main-header{
+    margin-top: 45px;
+}
+.W-main .main-header a{
+    display: inline-block;
+}
+.W-main .main-bottom{
+    border: 1px solid #f0f0f0;
+    background: #fff;
+    min-height: 260px;
+    margin: 40px auto 0;
+}
+.main-bottom .bottom-content{
+    padding: 50px 0;
+}
+.main-bottom .bottom-content h5{
+    /* font-weight: 400; */
+    font-size: 28px;
+    color: #000;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.main-bottom .bottom-content .regist{
+    width: 338px;
+    margin: 0 auto;
+    
+}
+.regist .regist-box{
+    margin-bottom: 15px;
+    position: relative;
+}
+.regist .regist-box p{
+    /* margin-top: 15px; */
+    line-height: 38px;
+    position: relative;
+    overflow: hidden;
+} 
+.regist .regist-box p em{
+    position: absolute;
+    top: 12px;
+    left: 11px;
+}
+.regist .regist-box p .icon-phone{
+    display: block;
+    background: url(../images/proLists-img/xuebitu2.png) -576px -25px;
+    background-size: 589px;
+    width: 12px;
+    height: 16px;
+}
+em, i {
+    font-style: normal;
+}
+.regist .regist-box p input{
+    width: 301px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #e8e8e8;
+    font-size: 12px;
+    background-color: transparent;
+    padding-left: 35px;
+    border-radius: 8px;
+    /* border: 0; */
+    outline: none;
+}
+.regist .regist-box p .icon-note{
+    display: block;
+    background: url(../images/proLists-img/xuebitu2.png) -576px 0;
+    background-size: 589px;
+    width: 13px;
+    height: 15px;
+}
+.regist .regist-box p .note-inp{
+    width: 193px;
+}
+.regist .regist-box #v_container{
+    width: 98px;
+    height: 38px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    /* margin-top: 15px; */
+}
+.regist .regist-box p .icon-pwd{
+    display: block;
+    background: url(../images/proLists-img/xuebitu2.png) -576px -51px;
+    background-size: 589px;
+    width: 12px;
+    height: 15px;
+}
+.regist .regist-box p .ico{
+    top: 12px;
+    right: 11px;
+    position: absolute;
+}
+.regist .regist-box p .icon-eye{
+    display: block;
+    background: url(../images/proLists-img/eye.png) -142px -92px;
+    background-size: 220px;
+    width: 16px;
+    height: 16px;
+}
+.regist .register{
+    width: 340px;
+    height: 38px;
+    font-size: 14px;
+    background: #b32424;
+    color: #fff;
+    border: 0;
+    border-radius: 2px;
+    display: block;
+    margin: 35px auto 0;
+    line-height: 38px;
+    text-align: center;
+    text-decoration: none;
+}
+.regist .condition{
+    font-size: 12px;
+    color: #999;
+    padding-bottom: 20px;
+    margin-top: 15px;
+    line-height: 38px;
+}
+.regist .condition a{
+    color:#000;
+}
+.regist .regist-box i{
+    line-height: 16px;
+    font-size: 10px;
+    color: #d00000;
+    margin-top: 8px;
+    display: block;
+    margin-bottom: -7px;
+    font-weight: 700;
+    background: url(../images/proLists-img/icon-a-error-icon.png) no-repeat left center;
+    padding-left: 18px;
+}

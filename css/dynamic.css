@@ -1,0 +1,274 @@
+.main{
+    width: 100%;
+    background: #fff;
+}
+/*banner开始*/
+.dyc-banner{
+    width: 100%;
+    height: 440px;
+    position: relative;
+    overflow: hidden;
+}
+.dyc-banner .dyc-container{
+    margin: 0 auto;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    width: 5703px;
+}
+.clearfix:after{
+    content: '.';
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.dyc-banner .dyc-container .banner1{
+    float: left;
+}
+.dyc-banner .cs{
+    width: 44px;
+    height: 44px;
+    background: url(../images/dynamic-img/xb.png);
+    z-index: 10;
+    display: none;
+}
+.dyc-banner .cs-lt{
+    background-position: -111px -357px;
+    position: absolute;
+    top: 50%;
+    left: 7%;
+}
+.dyc-banner .cs-rt{
+    background-position: -57px -357px;
+    position: absolute;
+    top: 50%;
+    right: 7%;
+}
+.dyc-banner .circle{
+    z-index: 10;
+    width: 40px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    bottom: 10px;
+}
+.dyc-banner:hover .cs{
+    display: block;
+    opacity: 1;
+}
+/*banner结束*/
+
+.shop-block{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+/*tab开始*/
+.shop-tab{
+    width: 1201px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.shop-tab .tab{
+    width: 1201px;
+    margin-bottom: 35px;
+}
+.shop-tab .tab .tab-lt{
+    border-right: 1px solid #d4cdcd;
+}
+.shop-tab .tab .tab-text{
+    background: #333;
+    color: #f2d291;
+}
+.shop-tab .tab1{
+    float: left;
+    width: 600px;
+    height: 80px;
+    background: #d5d1d1;
+    font-size: 38px;
+    line-height: 80px;
+    text-align: center;
+    font-family: "黑体";
+    cursor: pointer;
+}
+.tab1::after{
+content: '';
+display: block;
+width: 0;
+height: 0;
+    border-width: 20px 20px 0;
+    border-style: solid;
+    border-color: #333 transparent transparent;
+    margin: 0 auto;
+}
+.shop-tab .tab .tab-rt{
+    overflow: hidden;
+}
+/*tab结束*/
+
+.shop-tab .tab-bom .tab2{
+    width: 1200px;
+}
+
+/*品牌闪购开始*/
+.shop-tab .tab-bom .tablt{
+    display: block;
+    margin-bottom: 40px;
+}
+.shop-tab .tab-bom .tablt .tab-shop{
+    width: 1200px;
+    margin-bottom: 10px;
+}
+.shop-tab .tab-bom .tablt .tab-shop a{
+    text-decoration: none;
+    display: block;
+    float: left;
+    width: 600px;
+    height: 220px;
+    overflow: hidden;
+}
+.shop-tab .tab-bom .tablt .tab-shop a img{
+    width: 100%;
+    height: 220px;
+    border: 0;
+    display: block;
+}
+/*品牌闪购结束*/
+
+/*精选腕表开始*/
+.shop-tab .tab-bom .tabrt{
+    display: none;
+    margin-bottom: 30px;
+}
+.shop-tab .tab-bom .tabrt ul{
+    margin-left: 70px;
+}
+.shop-tab .tab-bom .tabrt ul li{
+    border: 1px solid transparent;
+    height: 424px;
+    position: relative;
+    width: 236px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    margin: 20px 36px 20px 0;
+}
+.shop-tab .tab-bom .tabrt ul li a{
+    cursor: pointer;
+}
+.shop-tab .tab-bom .tabrt ul li .goods-img{
+    display: block;
+    overflow: hidden;
+    width: 220px;
+    height: 275px;
+    margin: 10px auto 5px;
+    position: relative;
+    text-align: center;
+}
+.shop-tab .tab-bom .tabrt ul li .goods-img img{
+    width: auto;
+    height: 275px;
+    position: absolute;
+    left: -11%;
+}
+.shop-tab .tab-bom .tabrt ul li .goods-txt{
+    margin: 0 12px;
+    padding-bottom: 20px;
+    line-height: 18px;
+}
+.shop-tab .tab-bom .tabrt ul li .goods-txt p{
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.shop-tab .tab-bom .tabrt ul li .goods-txt p .txt-price1{
+    color: #cc5252;
+    font-size: 18px;
+    font-family: Tahoma,Geneva,sans-serif;
+}
+.shop-tab .tab-bom .tabrt ul li .goods-txt .txt-price{
+    color: #333;
+    font-size: 18px;
+    font-family:  Tahoma,Geneva,sans-serif;
+}
+.shop-tab .tab-bom .tabrt ul li .goods-txt p .txt-count{
+    font-size: 12px;
+    color: #999;
+    float: right;
+}
+.shop-tab .tab-bom .tabrt ul li .goods-txt .goods-name{
+    text-decoration: none;
+    height: 36px;
+    line-height: 18px;
+    margin-bottom: 6px;
+    color: #666;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    word-break: break-all;
+    text-overflow: ellipsis;
+}
+.shop-tab .tab-bom .tabrt ul li .goods-txt p .tags{
+    background: #cc5252;
+    color: #fff;
+    line-height: 18px;
+    border: 1px solid #cc5252;
+    padding: 0 7px;
+    border-radius: 100px;
+}
+.shop-tab .tab-bom .tabrt ul li .goods-txt .tags1{
+    color: #cc5252;
+    margin-bottom: 8px;
+}
+.shop-tab .tab-bom .tabrt ul li .goods-txt .goods-yc{
+    position: absolute;
+    bottom: 10px;
+    background: #fff;
+    width: 203px;
+    display: none;
+}
+.shop-tab .tab-bom .tabrt ul li .goods-txt .goods-yc a{
+    text-decoration: none;
+    float: left;
+    display: block;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    width: 50%;
+    text-align: center;
+    color: #333;
+    line-height: 28px;
+}   
+.shop-tab .tab-bom .tabrt ul li .goods-txt .goods-yc .yc-cart{
+    color: #cc5252;
+    margin-left: -1px;
+}
+.shop-tab .tab-bom .tabrt .load{
+    width: 1200px;
+    cursor: pointer;
+}
+.shop-tab .tab-bom .tabrt .load-text{
+    font-size: 16px;
+    color: #666;
+    font-weight: bold;
+    text-align: center;
+}
+.shop-tab .tab-bom .tabrt .load-img{
+    margin: -5px 584px;
+    width: 30px;
+}
+.shop-tab .tab-bom .tabrt .load-img img{
+    width: 30px;
+    height: 30px;
+}
+.shop-tab .tab-bom .tabrt .load-top{
+    width: 1200px;
+    cursor: pointer;
+    display: none;
+}

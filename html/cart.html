@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="../js/util.js"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <!-- 页面导航 -->
+        <div class="header_top">
+            <div class="header_top_wrap clearfix">
+                <div class="wrap_left">
+                    <a href="#" class="baozhang">正品保障，免息分期！</a>
+                </div>
+                <div class="wrap_right clearfix fr">
+                    <div class="wrap_right_login fl">
+                        <a></a>
+                        <!-- <a href="../Login.html">请登录</a> -->
+                        <a href="../Regist.html" style="color: #ae0f17;">注册即送3500元大礼包</a>
+                    </div>
+                    <div class="wrap_right_others fl clearfix">
+                        <span class="line">|</span>
+                        <a href="#" style="color:#ae0f17;">
+                            <span>购物车</span>
+                            (<strong>0</strong>)
+                        </a>
+                        <div class="service fl">
+                            <a href="#" class="ke">客户服务</a>
+                            <div class="service_hover">
+                                <ul>
+                                    <li><a href="#">客户顾问</a></li>
+                                    <li><a href="#">售后维修</a></li>
+                                    <li><a href="#">帮助中心</a></li>
+                                    <li><a href="#">办理信用卡</a></li>
+                                </ul>
+                                <p class="teltxt">服务专线：400-883-2688</p>
+                                <p class="teltxt">外呼号码：020-83931899</p>
+                            </div>
+                        </div>
+                        <a href="benefit.html" class="fl">会员福利</a>
+                        <span class="line">|</span>
+                        <a href="#" class="fl">ENGLISH</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_center">
+            <div class="container clearfix">
+                <div class="center_left fl">
+                    <a href="#" class="logo fl">
+                        <img src="../images/images/logo-icon.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="../images/images/slogan-02242018.png" alt="">
+                    </a>
+                </div>
+                <div class="container-step">
+                    <div class="c-step-x"></div>
+                    <div class="c-step-a f1">
+                        <li class="c-step-a-show"></li>
+                        <p class="c-step-a-showp">购物车</p>
+                    </div>
+                    <div class="c-step-a">
+                        <li></li>
+                        <p>填写订单信息</p>
+                    </div>
+                    <div class="c-step-a">
+                        <li></li>
+                        <p>支付订单</p>
+                    </div>
+                    <div class="c-step-a">
+                        <li></li>
+                        <p>等待签收</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- 内容 -->
+    <!-- 空购物车 -->
+    <div class="header_shop">
+        <div class="header-shop-car">
+            <img src="../images/images/cart_car.png" alt="">
+            <div class="header-shop-car-word">
+                <small>你的购物车还是空的</small>
+                <p>现在<a href="#">登录</a>，购物车信息将一直为您保存</p>
+            </div>
+            <div class="header-shop-pic">
+                <div class="h-shop-pic1">
+                    <p>马上购物</p>
+                </div>
+                <div class="h-shop-pic2">
+                    <p>看看收藏</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 有商品购物车 -->
+    <div class="header-have">
+        <div class="header-have-top">
+            <div class="header-have-all">
+                <div class="wrap_right_others">
+                    <a href="#">
+                        <span>全部商品(
+                            <strong>0</strong>
+                            )</span>
+                    </a>
+                </div>
+                <div class="header-have-prompt">
+                    <p>温馨提示：登陆后购物车的商品将保存到您的账户中，<a href="#">立即登录</a></p>
+                </div>
+                <!-- 商品 -->
+                <div class="header-have-allshop">
+                    <div class="header-have-main">
+                        <ul>
+                            <li class="header-have-pro-all">
+                                <label>
+                                    <input type="checkbox" class="selectAll" name="selectall">
+                                    <i></i>
+                                </label>
+                                <span>全选</span>
+                            </li>
+                            <li class="header-have-pro-width">
+                                <span>商品信息</span>
+                            </li>
+                            <li class="header-have-pro-margin">
+                                <span>单价</span>
+                            </li>
+                            <li class="header-have-pro-margin">
+                                数量
+                            </li>
+                            <li class="header-have-pro-m">小计</li>
+                            <li class="header-have-pro-m">操作</li>
+                        </ul>
+                    </div>
+                    <!-- 店铺 -->
+                    <div class="aa"></div>
+                    <!-- <div class="header-have-item">
+
+                        <div class="header-have-content">
+                            <ul class="header-have-content-t">
+                                <li class="header-have-c-title">
+                                    <label>
+                                        <input type="checkbox" class="have-c-shop">
+                                        <i></i>
+                                    </label>
+                                    <span>劳力士ROLEX</span>
+                                </li>
+                                <li>
+
+                                    <div class="have-c-shop-list">
+                                        <div class="have-a-shop-list-float have-a-cart">
+                                            <label>
+                                                <input type="checkbox" class="danxuan">
+                                                <i></i>
+                                            </label>
+                                        </div>
+                                        <img src="../images/images/have-c-shop.jpg" alt="" class="have-a-shop-list-float">
+                                        <p class="have-a-shop-list-float wenzi">劳力士ROLEX-日志系列 116333-72213白</p>
+                                        <p class="have-a-shop-list-float have-a-shop-color-size">钢 黄金 白色 不锈钢</p>
+                                        <p class="have-a-shop-list-float" style="margin-left:90px;">￥<span class="danjia">20</span></p>
+                                        <div id="num" class="have-a-shop-list-float">
+                                            <button class="reduce">-</button>
+                                            <input type="text" class="pro-number" value='1'>
+
+                                            <button class="add">+</button>
+                                        </div>
+                                        <p class="have-a-shop-list-float">￥ <span class="xiaoji">40</span> </p>
+                                        <div class="caozuo have-a-shop-list-float">
+                                            <a href="#">删除</a>
+                                            <br>
+                                            <span class="focu">移入收藏</span>
+                                        </div>
+                                    </div>
+                                    <div class="have-c-shop-list">
+                                        <div class="have-a-shop-list-float have-a-cart">
+                                            <label>
+                                                <input type="checkbox" class="danxuan">
+                                                <i></i>
+                                            </label>
+                                        </div>
+                                        <img src="../images/images/have-c-shop.jpg" alt="" class="have-a-shop-list-float">
+                                        <p class="have-a-shop-list-float wenzi">劳力士ROLEX-日志系列 116333-72213白</p>
+                                        <p class="have-a-shop-list-float have-a-shop-color-size">钢 黄金 白色 不锈钢</p>
+                                        <p class="have-a-shop-list-float" style="margin-left:90px;">￥<span class="danjia">100</span></p>
+                                        <div id="num" class="have-a-shop-list-float">
+                                            <button class="reduce">-</button>
+                                            <input type="text" class="pro-number" value='1'>
+                                            <button class="add">+</button>
+                                        </div>
+                                        <p class="have-a-shop-list-float">￥<span class="xiaoji">300</span> </p>
+                                        <div class="caozuo have-a-shop-list-float">
+                                            <a href="#">删除</a>
+                                            <br>
+                                            <span class="focu">移入收藏</span>
+                                        </div>
+                                    </div>
+                                    <div class="have-c-shop-list">
+                                        <div class="have-a-shop-list-float have-a-cart">
+                                            <label>
+                                                <input type="checkbox" class="danxuan">
+                                                <i></i>
+                                            </label>
+                                        </div>
+                                        <img src="../images/images/have-c-shop.jpg" alt="" class="have-a-shop-list-float">
+                                        <p class="have-a-shop-list-float wenzi">劳力士ROLEX-日志系列 116333-72213白</p>
+                                        <p class="have-a-shop-list-float have-a-shop-color-size">钢 黄金 白色 不锈钢</p>
+                                        <p class="have-a-shop-list-float" style="margin-left:90px;">￥<span class="danjia">200</span></p>
+                                        <div id="num" class="have-a-shop-list-float">
+                                            <button class="reduce">-</button>
+                                            <input type="text" class="pro-number" value='1'>
+                                            <button class="add">+</button>
+                                        </div>
+                                        <p class="have-a-shop-list-float">￥<span class="xiaoji">200</span> </p>
+                                        <div class="caozuo have-a-shop-list-float">
+                                            <a href="#">删除</a>
+                                            <br>
+                                            <span class="focu">移入收藏</span>
+                                        </div>
+                                    </div>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div> -->
+                    <div id="header-have-c-total">
+                        <div class="header-have-main header-have-meta">
+                            <ul>
+                                <li class="header-have-pro-all">
+                                    <label>
+                                        <input type="checkbox" class="selectAll" name="selectall">
+                                        <i></i>
+                                    </label>
+                                    <span>全选</span>
+                                </li>
+                                <li class="header-have-p-all">
+                                    <span>删除</span>
+                                </li>
+                                <li class="header-have-pro-all">
+                                    <span>移入收藏</span>
+                                </li>
+                                <li class="header-have-pro-clear">
+                                    清空失效商品
+                                </li>
+                                <li class="header-have-pro-ok">已选商品
+                                    <span>0</span>
+                                    件
+                                </li>
+                            </ul>
+                            <div class="header-have-total">
+                                <div>
+                                    <p style="font-size:16px;font-weight:normal;">
+                                        合计<span id="totalNum">￥0</span>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p style="margin-top:10px;margin-left: 10px;font-size:12px;font-weight:normal;">
+                                        总额
+                                        <span id="totalPrice">￥0</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="header-have-over">
+                                <a href="../html/information.html">结算</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div id="secondhandShop-footer">
+        <div class="secondhandShop-footer-ribbon">
+            <ul class="ribbon-list">
+                <li>
+                    <span class="list-li-icon_01"></span>
+                    正品保障
+                </li>
+                <li>
+                    <span class="list-li-icon_02"></span>
+                    免息分期
+                </li>
+                <li>
+                    <span class="list-li-icon_03"></span>
+                    全球联保
+                </li>
+                <li>
+                    <span class="list-li-icon_04"></span>
+                    假一赔三
+                </li>
+                <li>
+                    <span class="list-li-icon_05"></span>
+                    终身售后
+                </li>
+            </ul>
+        </div>
+        <div class="secondhandShop-footer-service clearfix">
+            <div class="service-left">
+                <p class="p1">客服电话</p>
+                <p class="p2">400-883-2688</p>
+                <p class="p3">外呼电话 &nbsp;&nbsp;020-83931899</p>
+                <p class="p4"><a href="">售后维修</a></p>
+            </div>
+            <div class="service-center clearfix">
+                <ul>
+                    <li class="center-list-title">新手指南</li>
+                    <li><a href="">注册新会员</a></li>
+                    <li><a href="">购物流程</a></li>
+                    <li><a href="">手表小知识</a></li>
+                    <li><a href="">退换货流程</a></li>
+                </ul>
+                <ul>
+                    <li class="center-list-title">支 付</li>
+                    <li><a href="">支付方式</a></li>
+                    <li><a href="">分期付款</a></li>
+                    <li><a href="">发票说明</a></li>
+                    <li><a href="">支付问题</a></li>
+                </ul>
+                <ul>
+                    <li class="center-list-title">配 送</li>
+                    <li><a href="">包裹签收</a></li>
+                    <li><a href="">配送方式</a></li>
+                    <li><a href="">配送说明</a></li>
+                    <li><a href="">自提流程</a></li>
+                </ul>
+                <ul>
+                    <li class="center-list-title">万表保障</li>
+                    <li><a href="">正品保障</a></li>
+                    <li><a href="">售后服务</a></li>
+                    <li><a href="">价格保护</a></li>
+                    <li><a href="">七天退换说明</a></li>
+                </ul>
+                <ul>
+                    <li class="center-list-title">服务中心</li>
+                    <li><a href="">关于万表</a></li>
+                    <li><a href="">商务合作</a></li>
+                    <li><a href="">万表声明</a></li>
+                </ul>
+            </div>
+            <div class="service-right clearfix">
+                <a href=""><img src="../images/images/WatchExpert_QRcode.jpg" alt=""></a>
+            </div>
+        </div>
+        <div class="secondhandShop-footer-copyright">
+            <div class="copyright-wrap clearfix">
+                <div class="wrap-link clearfix">
+                    <a href="">万表app</a>
+                    <a href="">万表名匠</a>
+                    <a href="">网站联盟</a>
+                    <a href="">新款手表</a>
+                    <a href="">热销</a>
+                    <a href="">天猫万表网旗舰店</a>
+                    <a href="">京东万表网旗舰店</a>
+                    <a href="">万表达人</a>
+                    <a href="">手表资讯</a>
+                    <a href="">天梭手表</a>
+                    <span class="more-link">></span>
+                    <p class="wp-more-link">
+                        <a href="">欧米茄手表</a>
+                        <a href="">卡西欧手表</a>
+                        <a href="">卡地亚手表</a>
+                        <a href="">手表图片</a>
+                        <a href="">手表评论</a>
+                        <a href="">手表排行榜</a>
+                        <a href="">珠宝新闻</a>
+                        <a href="">手表问答</a>
+                        <a href="">智能手表</a>
+                        <a href="">信用卡中心</a>
+                        <a href="">手表专题</a>
+                        <a href="">手表常识</a>
+                    </p>
+                </div>
+                <div class="wrap-corp">
+                    <p>万表网名表商城 版权所有 2008-2018 ICP备案证书号:粤ICP备09108738号 网监备案:4401060103141</p>
+                    <p>广州市万表科技股份有限公司 地址:广州市番禺区番禺大道北60-1号</p>
+                    <p>Copyright 2008-2017 WWW.WBIAO.CN.LTD ALL RIGHT RESERVED.</p>
+                </div>
+            </div>
+            <div class="copyright-filing">
+                <div>
+                    <a href=""><img src="../images/images/filing_logo_01.png" alt=""></a>
+                    <a href=""><img src="../images/images/filing_logo_02.png" alt=""></a>
+                    <a href=""><img src="../images/images/filing_logo_03.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="../js/jquery-1.8.3.min.js"></script>
+<script src="../js/cart.js"></script>
+
+</html>

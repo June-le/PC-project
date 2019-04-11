@@ -1,0 +1,2 @@
+@charset "utf-8";
+.W_gnTab_nav ul{width:100%;overflow:hidden;border-bottom:1px solid #ddd;background:#fff;display:flex}.W_gnTab_nav ul li{height:40px;display:block;float:left;text-align:center}.W_gnTab_nav ul li a{display:inline-block;line-height:37px;color:#666;font-size:16px}.W_gnTab_nav ul li.on a{color:#000;border-bottom:3px solid #000}.W_gnTab_nav ul li:hover a{color:#000}.W_gnTab_content .gnTabs_block{display:none}.W_gnTab_content .gnTabs_block:first-child{display:block}

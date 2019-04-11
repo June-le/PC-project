@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/Regist.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="js/yanzheng.js"></script>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/util.js"></script>
+</head>
+
+<body>
+    <div class="W-main">
+        <div class="main-header">
+            <a href="#">
+                <img src="images/proLists-img/logo-icon.png" alt="">
+            </a>
+            <a href="#">
+                <img src="images/proLists-img/slogan-02242018.png" alt="">
+            </a>
+        </div>
+        <div class="main-bottom">
+            <div class="bottom-content">
+                <h5>注册万表会员</h5>
+                <div class="regist">
+                    <div class="regist-box">
+                        <p>
+                            <em class="icon-phone"></em>
+                            <input type="text" class="user" id="mobile" placeholder="请输入用户名">
+                        </p>
+                        <i></i>
+                    </div>
+                    <div class="regist-box">
+                        <p>
+                            <em class="icon-note"></em>
+                            <input type="text" id="code_input" value="" placeholder="请输入验证码" class="note-inp" />
+                            <!-- <button id="my_button">验证</button> -->
+                        </p>
+                        <div id="v_container" class="note-img"></div>
+                        <i></i>
+                    </div>
+                    <div class="regist-box">
+                        <p>
+                            <em class="icon-pwd"></em>
+                            <input type="password" class="pwd" name="password" placeholder="请设置密码" value="" maxlength="20">
+                            <span class="ico icon-eye"></span>
+                        </p>
+                        <i></i>
+                    </div>
+                    <div class="regist-box">
+                        <p>
+                            <em class="icon-pwd"></em>
+                            <input type="password" class="pwd2" name="password2" placeholder="请再次输入密码" value=""
+                                maxlength="20">
+                            <span class="ico icon-eye"></span>
+                        </p>
+                        <i></i>
+                    </div>
+                    <a href="javascript:void(0);" class="register" id="register">立即注册</a>
+                    <p class="condition">
+                        点击“立即注册”，即表示您同意并愿意遵守
+                        <a target="_blank" href="https://www.wbiao.com/help-25.html">万表网用户协议</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var verifyCode = new GVerify("v_container");
+
+</script>
+<script src="js/regist.js"></script>
+
+</html>

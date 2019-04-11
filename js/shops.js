@@ -1,0 +1,1 @@
+$(".banner div").eq(1).show();
